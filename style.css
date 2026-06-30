@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    background-color: #a58563;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head h2{
+    text-align: center;
+    color: #525252de;
+    font-family: system-ui;
+    font-size: 65px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    justify-content: center;
+}
+
+.box{
+    width:100px;
+    height:100px;
+    border:2px solid #333;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.box img{       
+    width: 70px;
+    height: 70px;
+}
